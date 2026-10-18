@@ -9,7 +9,7 @@ public class Fever {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a body Temperature:");
 // double temp = 103.5;
-        float tem = sc.nextFloat();
+        double tem = sc.nextDouble();
         if (tem > 100) {
             System.out.println("Fever, Please meet a Doctor");
         } else {
