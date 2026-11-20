@@ -260,7 +260,7 @@ public static void holloRectangle(int row, int col){
 // 5 6 7 8 9 
     
     public static void patter01(int n){
-        int counter =1;
+        int counter = 1;
        for(int i=1; i<=n; i++){
             for(int j=1; j<=i; j++){
                 System.out.print((i + j) - 1 + " " );
